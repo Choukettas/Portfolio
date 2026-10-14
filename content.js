@@ -71,6 +71,16 @@ window.PORTFOLIO = {
       image: "",
       links: [{ label: "Voir le site", url: "https://emerizz.com" }],
     },
+        {
+      title: "1er Game JAMS",
+      description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
+      category: "Jeu",
+      tags: ["2D", "Unity","C#"],
+      year: "2026",
+      status: "Terminé",
+      image: "",
+      links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
+    },
     {
       title: "Games Tracker",
       description: "Tracker de jeux gratuis",
@@ -80,16 +90,6 @@ window.PORTFOLIO = {
       status: "Terminé",
       image: "",
       links: [{ label: "Code source", url: "https://github.com/Choukettas/games_tracker_V2" }],
-    },
-    {
-      title: "1er Game JAMS",
-      description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
-      category: "Jeu",
-      tags: ["2D", "Unity","C#"],
-      year: "2026",
-      status: "Terminé",
-      image: "",
-      links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
     },
     {
       title: "Outil d'automatisation",
