@@ -545,7 +545,7 @@
 
     select('#foot').append(
       h('span', null, `© ${year} ${siteName}`),
-      h('span', null, 'noir & blanc · fait main'));
+      h('span', null, 'Host by chouk · fait main'));
   }
 
   function renderStatus() {

@@ -29,24 +29,24 @@ window.PORTFOLIO = {
 
   /* ---------- Statistiques ---------- */
   stats: [
-    { label: "Projets",   value: "auto:projects", note: "publiés ici",       icon: "box" },
-    { label: "Depuis",    value: "2021",          note: "je code",           icon: "calendar" },
-    { label: "Lieu",      value: "France",        note: "fuseau Europe/Paris", icon: "pin" },
-    { label: "Langages",  value: "5",            note: "et ça continue",    icon: "code" },
+    { label: "Projets", value: "auto:projects", note: "publiés ici", icon: "box" },
+    { label: "Depuis", value: "2021", note: "je code", icon: "calendar" },
+    { label: "Lieu", value: "France", note: "fuseau Europe/Paris", icon: "pin" },
+    { label: "Langages", value: "5", note: "et ça continue", icon: "code" },
   ],
 
   /* ---------- Compétences ---------- */
   skills: [
-    { name: "Python",      level: 85 },
-    { name: "JavaScript",  level: 75 },
-    { name: "HTML / CSS",  level: 67 },
-    { name: "Host / Network",      level: 50 },
+    { name: "Python", level: 85 },
+    { name: "JavaScript", level: 75 },
+    { name: "HTML / CSS", level: 67 },
+    { name: "Host / Network", level: 50 },
   ],
 
   /* ---------- Liens ---------- */
   links: [
-    { label: "GitHub",    url: "https://github.com/choukettas",          icon: "github" },
-    { label: "Discord",   url: "https://discord.com/users/1369458557354905702",         icon: "discord" },
+    { label: "GitHub", url: "https://github.com/choukettas", icon: "github" },
+    { label: "Discord", url: "https://discord.com/users/1369458557354905702", icon: "discord" },
   ],
 
   /* ---------- Projets ---------- */
@@ -58,37 +58,47 @@ window.PORTFOLIO = {
       tags: ["JS", "PRL", "Crypto", "Pool"],
       year: "2026",
       status: "En cours",
-      image: "",
+      image: "assets/Projet/PearlPool.png",
       links: [{ label: "Voir le site", url: "https://pool.chouk.ovh" }],
     },
     {
       title: "emeRIZZ",
       description: "Votre coach de rencontres",
       category: "web",
-      tags: ["js","saas","AI", "app"],
+      tags: ["js", "saas", "AI", "app"],
       year: "2026",
       status: "En cours",
-      image: "",
+      image: "assets/Projet/emerizz.png",
       links: [{ label: "Voir le site", url: "https://emerizz.com" }],
     },
-        {
+    {
+      title: "Drone FPV",
+      description: "crée un drone FPV de zero",
+      category: "électronique",
+      tags: ["FPV", "Impresion 3D", "Betaflight", "ERLS",],
+      year: "2026",
+      status: "Terminer",
+      image: "assets/Projet/DroneFPV.jpg",
+      links: [],
+    },
+    {
       title: "1er Game JAMS",
       description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
       category: "Jeu",
-      tags: ["2D", "Unity","C#"],
+      tags: ["2D", "Unity", "C#"],
       year: "2026",
       status: "Terminé",
-      image: "",
+      image: "assets/Projet/GameJames.png",
       links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
     },
     {
       title: "Games Tracker",
       description: "Tracker de jeux gratuis",
       category: "Bot/automatisation",
-      tags: ["Python","Discord","Games"],
+      tags: ["Python", "Discord", "Games"],
       year: "2025",
       status: "Terminé",
-      image: "",
+      image: "assets/Projet/Game_Tracker.png",
       links: [{ label: "Code source", url: "https://github.com/Choukettas/games_tracker_V2" }],
     },
     {
@@ -98,9 +108,10 @@ window.PORTFOLIO = {
       tags: ["Python", "Script"],
       year: "2025",
       status: "terminé",
-      image: "",
+      image: "assets/Projet/GDT.png",
       links: [{ label: "Code source", url: "https://github.com/Choukettas/Download-Manager" }],
-    }
+    },
+
   ],
 
   /* ---------- Mon histoire ---------- */
@@ -136,7 +147,7 @@ window.PORTFOLIO = {
           d'infrastructures réseau et les CTF (Capture The Flag).
         `,
       },
-            {
+      {
         date: "2026",
         title: "Aujourd'hui",
         text: `
