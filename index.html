@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr" data-theme="ink">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio : projets, histoire et contact.">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" id="favicon" href="assets/avatar.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      var root = document.documentElement;
+
+      try {
+        var savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'ink' || savedTheme === 'paper') {
+          root.setAttribute('data-theme', savedTheme);
+        }
+      } catch (e) {}
+
+      try {
+        if (!sessionStorage.getItem('entered')) root.classList.add('splash-on');
+      } catch (e) {
+        root.classList.add('splash-on');
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Écran d'entrée -->
+  <div class="splash" id="splash" role="button" tabindex="0" aria-label="Entrer sur le site">
+    <div class="splash-inner">
+      <img class="splash-avatar" id="splash-avatar" alt="" width="96" height="96">
+      <p class="splash-name" id="splash-name"></p>
+      <p class="splash-hint"><span id="splash-text">cliquer pour entrer</span><span class="caret" aria-hidden="true"></span></p>
+    </div>
+  </div>
+
+  <div class="app">
+    <aside class="sidebar">
+      <a class="brand" href="#profil" id="brand"></a>
+      <nav class="nav" id="nav" aria-label="Navigation principale"></nav>
+      <div class="side-foot">
+        <div class="side-meta" id="side-meta"></div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <header class="topbar">
+        <div class="titles">
+          <h1 id="page-title"></h1>
+          <p id="page-sub"></p>
+        </div>
+        <div class="top-right">
+          <span class="status" id="status" hidden><span class="dot"></span><span id="status-text"></span></span>
+          <button class="theme-pick" id="theme-btn" type="button" aria-label="Changer de thème (sombre / clair)" title="Thème sombre / clair">
+            <span class="swatch" aria-hidden="true"></span>
+          </button>
+        </div>
+      </header>
+
+      <section class="page" data-page="profil" aria-label="Profil"></section>
+      <section class="page" data-page="projets" aria-label="Projets"></section>
+      <section class="page" data-page="histoire" aria-label="Mon histoire"></section>
+      <section class="page" data-page="contact" aria-label="Contact"></section>
+
+      <noscript><p class="noscript">Ce portfolio a besoin de JavaScript pour s'afficher.</p></noscript>
+      <footer class="foot" id="foot"></footer>
+    </main>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
