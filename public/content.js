@@ -89,7 +89,7 @@ window.PORTFOLIO = {
       year: "2026",
       status: "Terminer",
       image: "assets/Projet/cerfa_filler.png",
-      links: [],
+      links: [{ label: "Voir l'Entreprise", url: "https://www.anaveo.fr" }],
     },
     {
       title: "Games Tracker",
