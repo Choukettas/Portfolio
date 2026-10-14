@@ -73,9 +73,9 @@ window.PORTFOLIO = {
     },
     {
       title: "Drone FPV",
-      description: "crée un drone FPV de zero",
-      category: "électronique",
-      tags: ["FPV", "Impresion 3D", "Betaflight", "ERLS",],
+      description: "Créer un drone FPV de zéro",
+      category: "Électronique",
+      tags: ["FPV", "Impression 3D", "Betaflight", "ERLS"],
       year: "2026",
       status: "Terminer",
       image: "assets/Projet/DroneFPV.jpg",
@@ -83,9 +83,9 @@ window.PORTFOLIO = {
     },
     {
       title: "Cerfa-filler",
-      description: "Logiciel fait dans le cadre d'un stage chez Anaveo pour générer des Cerfa automatiquement.",
+      description: "Logiciel développé dans le cadre d'un stage chez Anaveo pour générer automatiquement des Cerfa.",
       category: "outil",
-      tags: ["Python", "Soft", "Entreprise", "Anaveo"],
+      tags: ["Python", "Logiciel", "Entreprise", "Anaveo"],
       year: "2026",
       status: "Terminer",
       image: "assets/Projet/cerfa_filler.png",
@@ -93,7 +93,7 @@ window.PORTFOLIO = {
     },
     {
       title: "Games Tracker",
-      description: "Tracker de jeux gratuis",
+      description: "Un outil de suivi des jeux gratuits",
       category: "Bot/automatisation",
       tags: ["Python", "Discord", "Games"],
       year: "2026",
@@ -102,8 +102,8 @@ window.PORTFOLIO = {
       links: [{ label: "Code source", url: "https://github.com/Choukettas/games_tracker_V2" }],
     },
     {
-      title: "1er Game JAMS",
-      description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
+      title: "Première Game Jam",
+      description: "Un jeu jouable dans le navigateur, créé pour une Game Jam de 48 heures.",
       category: "Jeu",
       tags: ["2D", "Unity", "C#"],
       year: "2025",
@@ -113,7 +113,7 @@ window.PORTFOLIO = {
     },
     {
       title: "Outil d'automatisation",
-      description: "Un script Python qui permet de trier entierter de mais fichier telecharger",
+      description: "Un script Python qui permet de trier l'ensemble de mes fichiers téléchargés.",
       category: "Outil",
       tags: ["Python", "Soft"],
       year: "2025",
