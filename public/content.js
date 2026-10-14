@@ -82,30 +82,40 @@ window.PORTFOLIO = {
       links: [],
     },
     {
-      title: "1er Game JAMS",
-      description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
-      category: "Jeu",
-      tags: ["2D", "Unity", "C#"],
+      title: "Cerfa-filler",
+      description: "Logiciel fait dans le cadre d'un stage chez Anaveo pour générer des Cerfa automatiquement.",
+      category: "outil",
+      tags: ["Python", "Soft", "Entreprise", "Anaveo"],
       year: "2026",
-      status: "Terminé",
-      image: "assets/Projet/GameJames.png",
-      links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
+      status: "Terminer",
+      image: "assets/Projet/cerfa_filler.png",
+      links: [],
     },
     {
       title: "Games Tracker",
       description: "Tracker de jeux gratuis",
       category: "Bot/automatisation",
       tags: ["Python", "Discord", "Games"],
-      year: "2025",
+      year: "2026",
       status: "Terminé",
       image: "assets/Projet/Game_Tracker.png",
       links: [{ label: "Code source", url: "https://github.com/Choukettas/games_tracker_V2" }],
     },
     {
+      title: "1er Game JAMS",
+      description: "Un jeu jouable dans le navigateur, créé pour une game jam de 48 h.",
+      category: "Jeu",
+      tags: ["2D", "Unity", "C#"],
+      year: "2025",
+      status: "Terminé",
+      image: "assets/Projet/GameJames.png",
+      links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
+    },
+    {
       title: "Outil d'automatisation",
       description: "Un script Python qui permet de trier entierter de mais fichier telecharger",
       category: "Outil",
-      tags: ["Python", "Script"],
+      tags: ["Python", "Soft"],
       year: "2025",
       status: "terminé",
       image: "assets/Projet/GDT.png",
@@ -126,16 +136,14 @@ window.PORTFOLIO = {
         date: "2023",
         title: "Les premières lignes",
         text: `
-          J'ai pue decouvir le developement grasse a un formation (studio XP) et crée mais tout premier jeux video
+          J'ai pu découvrir le développement de jeux vidéo grâce à une formation chez Studio XP, où j'ai créé mes tout premiers jeux vidéo. Cette expérience m'a permis de découvrir les bases du développement
         `,
       },
       {
         date: "2024",
         title: "Premier vrai projet",
         text: `
-          Je decouvre lebergement et les installation de serveur on monte un projet apeler skyclouds
-          pour ebergementd VPS projet que je quiterais peu de themps aprés 
-          pour me lencer dans la création de bot discord et l'aprentisage de python et java-script
+        Je découvre ensuite l'hébergement et l'installation de serveurs. Avec d'autres personnes, nous lançons un projet appelé SkyClouds, spécialisé dans l'hébergement de VPS. Je quitte finalement ce projet peu de temps après pour me consacrer à de nouvelles expériences : la création de bots Discord et l'apprentissage de Python et de JavaScript.
         `,
       },
       {
