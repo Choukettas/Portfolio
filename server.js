@@ -10,15 +10,13 @@ const { pipeline } = require('node:stream');
 /* ---------- Configuration ---------- */
 
 const ROOT = __dirname;
+const PUBLIC_DIR = path.join(ROOT, 'public');
 const DATA_DIR = path.join(ROOT, 'data');
 const VIEWS_FILE = path.join(DATA_DIR, 'views.json');
 
 const PORT = parsePort(process.env.PORT, 3000);
 const HOST = process.env.HOST || '0.0.0.0';
 const TRUST_PROXY = process.env.TRUST_PROXY === '1';
-
-const PUBLIC_FILES = new Set(['index.html', 'style.css', 'app.js', 'content.js']);
-const PUBLIC_DIRECTORIES = new Set(['assets']);
 
 const MAX_URL_LENGTH = 2048;
 const SAVE_DELAY_MS = 2000;
@@ -224,10 +222,8 @@ function resolvePublicPath(pathname) {
   const hasUnsafeSegment = segments.some((segment) => segment.startsWith('.') || /[\\:\0]/.test(segment));
   if (hasUnsafeSegment) return null;
 
-  const [first] = segments;
-  const isPublic = segments.length === 1 ? PUBLIC_FILES.has(first) : PUBLIC_DIRECTORIES.has(first);
-
-  return isPublic ? path.join(ROOT, ...segments) : null;
+  const filePath = path.join(PUBLIC_DIR, ...segments);
+  return filePath.startsWith(PUBLIC_DIR + path.sep) ? filePath : null;
 }
 
 async function serveStatic(req, res, pathname) {
