@@ -84,7 +84,7 @@ window.PORTFOLIO = {
     {
       title: "Cerfa-filler",
       description: "Logiciel développé dans le cadre d'un stage chez Anaveo pour générer automatiquement des Cerfa.",
-      category: "outil",
+      category: "Outil",
       tags: ["Python", "Logiciel", "Entreprise", "Anaveo"],
       year: "2026",
       status: "Terminer",
@@ -114,7 +114,7 @@ window.PORTFOLIO = {
     {
       title: "Automatisation",
       description: "Un script Python qui permet de trier l'ensemble de mes fichiers téléchargés.",
-      category: "Outil",
+      category: "Bot/automatisation",
       tags: ["Python", "Soft"],
       year: "2025",
       status: "terminé",
