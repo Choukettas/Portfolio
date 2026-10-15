@@ -3,7 +3,7 @@ window.PORTFOLIO = {
   /* ---------- Écran « cliquer pour entrer »  ---------- */
   splash: {
     enabled: true,
-    text: "cliquer pour entrer",
+    text: "Bienvenue dans mon histoire",
   },
 
   /* ---------- Profil ---------- */
@@ -30,7 +30,7 @@ window.PORTFOLIO = {
   /* ---------- Statistiques ---------- */
   stats: [
     { label: "Projets", value: "auto:projects", note: "publiés ici", icon: "box" },
-    { label: "Depuis", value: "2021", note: "je code", icon: "calendar" },
+    { label: "Depuis", value: "2023", note: "je code", icon: "calendar" },
     { label: "Lieu", value: "France", note: "fuseau Europe/Paris", icon: "pin" },
     { label: "Langages", value: "5", note: "et ça continue", icon: "code" },
   ],
@@ -112,7 +112,7 @@ window.PORTFOLIO = {
       links: [{ label: "Jouer", url: "https://choukettas.itch.io/survie-game" }],
     },
     {
-      title: "Outil d'automatisation",
+      title: "Automatisation",
       description: "Un script Python qui permet de trier l'ensemble de mes fichiers téléchargés.",
       category: "Outil",
       tags: ["Python", "Soft"],
@@ -148,7 +148,7 @@ window.PORTFOLIO = {
       },
       {
         date: "2025",
-        title: "tout a changer",
+        title: "L'heure d'un tournant",
         text: `
           Cette année J'ai exploré de nombreux domaines de l'informatique, 
           en passant par les Game Jams, le développement web, l'administration 
